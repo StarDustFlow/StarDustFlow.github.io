@@ -1,13 +1,224 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>常用书签存放点</title>
-</head>
-<body>
-
-<h1>Test Page</h1>
-
-
-
-</body>
-</html> 
+<!doctype html>
+<title>常用书签</title>
+<meta name=renderer content=webkit>
+<meta name=viewport content=width=device-width,user-scalable=0>
+<meta http-equiv=X-UA-Compatible content=IE=edge,chrome=1>
+<script>HTML=document.documentElement,HTML.setAttribute("data-lang",navigator.language.toLowerCase()),HTML.setAttribute("data-timezone",(new Date).getTimezoneOffset()/60),window.localStorage&&window.localStorage.schemeName&&HTML.setAttribute("data-color-scheme",localStorage.schemeName)</script>
+<link rel=stylesheet href=index.css>
+<link rel=apple-touch-icon-precomposed href=/static/images/favicon@2x.png>
+<meta name=format-detection content=telephone=no>
+<meta name=robots content=index,follow>
+<div class=ui-layout>
+	<div class="func-anibaka-box ui-w740">
+		<a class=func-anibaka-title href=/anibaka?traned=1&sort=modified%2Cdesc>
+			<h6>日志</h6>
+			<h5>T代</h5>
+		</a>
+		<hr class=ui-hr>
+		<div class=func-anibaka-filter-box>做个页面内跳转
+			<a href=/anibaka>全部</a>
+			<i></i>
+			<a href=/anibaka?mmdd=0809>今日</a>
+			<i></i>
+			<form class=ui-select-nostyle style=width:4.3em>
+				<select name=yymm>
+					<option value>年月
+				</select>
+			</form>
+			<i></i>
+			<a href=/anibaka?traned=1&sort=modified%2Cdesc>已译</a>
+			<a href=/anibaka?traned=0>未译</a>
+			<i></i>
+			<form class=ui-select-nostyle style=width:3.3em>
+				<select name=sort onchange=this.parentNode.submit()>
+					<option value>最新前
+					<option value=n,asc>最旧前
+					<option value=modified,desc>新修改
+				</select>
+			</form>
+		</div>
+		<div class=func-anibaka-list>
+			<div class=func-anibaka-item data-traned>
+				<div class=head>
+					<div class=avatar>
+						<img src=https://kyoani-cn.syouzyo.org/images/staff/icon/kitanohara.gif>
+					</div>
+					<span class=n>天文</span>
+					<h3 class=title>
+						<a href=https://en.wikipedia.org/wiki/Meteor>
+							<span lang=cn>流星</span>
+							<span lang=en>Meteor</span>
+						</a>
+					</h3>
+					<div class=info-box>
+						<span class="genericon genericon-month"></span>
+						更新时间：
+						<span class=date>2020年08月09日</span>
+					</div>
+				</div>
+				<hr class=ui-hr>
+				<div class=content-box>
+					<p>我
+					<p>虽
+				</div>
+				<div class=append>
+					<span class=translator>译者: 
+						<a href=/anibaka?translator=%E5%B0%8F%E6%85%8C>小慌</a>
+					</span>
+				</div>
+			</div>
+			<div class=func-anibaka-item data-traned>
+				<div class=head>
+					<div class=avatar>
+						<img src=//kyoani-cn.syouzyo.org/images/staff/icon/wako.gif>
+					</div>
+					<span class=n>天文</span>
+					<h3 class=title>
+						<a href=/anibaka/3155>
+							<span lang=cn>音</span>
+							<span lang=ja>音</span>
+						</a>
+					</h3>
+					<div class=info-box>
+						<span class=author-name>
+							<span class="genericon genericon-edit"></span>
+							<a class=author_name href=/anibaka?author_id=3>渡</a>
+						</span>
+						<span class=date>
+							<span class="genericon genericon-month"></span>
+							2019年07月16日
+						</span>
+					<span class=translator>译者: 
+						<a href=/anibaka?translator=%E7%A4%BE%E7%95%9CD>社</a>
+					</span>
+				</div>
+			</div>
+			<hr class=ui-hr>
+			<div class=content-box>
+				<p>大家
+			</div>
+			<div class=append>
+				<span class=translator>译者: 
+					<a href=/anibaka?translator=%E7%A4%BE%E7%95%9CD>社畜D</a>
+				</span>
+			</div>
+		</div>
+		<div class=func-anibaka-item data-traned>
+			<div class=head>
+				<div class=avatar>
+					<img src=//kyoani-cn.syouzyo.org/images/staff/icon/icon_sawa_mini.gif>
+				</div>
+				<span class=n>天文</span>
+				<h3 class=title>
+					<a href=/anibaka/3154>
+						<span lang=cn>心机</span>
+						<span lang=ja>心機</span>
+					</a>
+				</h3>
+				<div class=info-box>
+					<span class=author-name>
+						<span class="genericon genericon-edit"></span>
+						<a class=author_name href=/anibaka?author_id=8>平</a>
+					</span>
+					<span class=date>
+						<span class="genericon genericon-month"></span>
+						2019年07月12日
+					</span>
+					<span class=translator>译者: 
+						<a href=/anibaka?translator=Vivace>Vivace</a>
+					</span>
+				</div>
+			</div>
+			<hr class=ui-hr>
+			<div class=content-box>
+				<p>大家好，我是さわわ。
+			</div>
+			<div class=append>
+				<span class=translator>译者: 
+					<a href=/anibaka?translator=Vivace>Vivace</a>
+				</span>
+			</div>
+		</div>
+		<div class=func-anibaka-item data-traned>
+			<div class=head>
+				<div class=avatar>
+					<img src=//kyoani-cn.syouzyo.org/images/staff/icon/wasabi.gif>
+				</div>
+				<span class=n>天文</span>
+				<h3 class=title>
+					<a href=/anibaka/3153>
+						<span lang=cn>空调</span>
+						<span lang=ja>エ</span>
+					</a>
+				</h3>
+				<div class=info-box>
+					<span class=author-name>
+						<span class="genericon genericon-edit"></span>
+						<a class=author_name href=/anibaka?author_id=7>小川太一</a>
+					</span>
+					<span class=date>
+						<span class="genericon genericon-month"></span>
+						2019年07月11日
+					</span>
+					<span class=translator>译者: 
+						<a href=/anibaka?translator=%E7%9C%9F%E7%99%BD>真白</a>
+					</span>
+				</div>
+			</div>
+			<hr class=ui-hr>
+			<div class=content-box>
+				<p>大家好，我是わさび。
+			</div>
+			<div class=append>
+				<span class=translator>译者: 
+					<a href=/anibaka?translator=%E7%9C%9F%E7%99%BD>真白</a>
+				</span>
+			</div>
+		</div>
+		<div class=func-anibaka-item data-traned>
+			<div class=head>
+				<div class=avatar>
+					<img src=//kyoani-cn.syouzyo.org/images/staff/icon/kappa.gif>
+				</div>
+				<span class=n>4571</span>
+				<h3 class=title><a href=/anibaka/3146>
+					<span lang=cn>环境</span>
+					<span lang=ja>環境</span>
+				</a>
+			</h3>
+			<div class=info-box>
+				<span class=author-name>
+					<span class="genericon genericon-edit"></span>
+					<a class=author_name href=/anibaka?author_id=6>秋竹齐一</a>
+				</span>
+				<span class=date>
+					<span class="genericon genericon-month"></span>
+					2019年07月10日
+				</span>
+				<span class=translator>译者: 
+					<a href=/anibaka?translator=%E5%B0%8F%E6%85%8C>小慌</a>
+				</span>
+			</div>
+		</div>
+		<hr class=ui-hr>
+		<div class=content-box>
+			<p>大家好，我是河童。
+		</div>
+		<div class=append>
+			<span class=translator>译者: 
+				<a href=/anibaka?translator=%E5%B0%8F%E6%85%8C>小慌</a>
+			</span>
+		</div>
+	</div>
+</div>
+<hr class=ui-hr>
+<div class=func-arrows-box>
+	<a href=/anibaka?page&#x3D;2>
+		<span class="genericon genericon-expand"></span>
+		返回最上面
+	</a>
+</div>
+</div>
+</div>
+<link rel=stylesheet href=https://cdn.bootcss.com/genericons/3.1/genericons.css>
+<script src=main.js></script>
