@@ -1,13 +1,105 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>常用书签存放点</title>
-</head>
-<body>
+<!doctype html>
+<title>常用书签</title>
+<meta name=renderer content=webkit>
+<meta name=viewport content=width=device-width,user-scalable=0>
+<meta http-equiv=X-UA-Compatible content=IE=edge,chrome=1>
+<script>HTML=document.documentElement,HTML.setAttribute("data-lang",navigator.language.toLowerCase()),HTML.setAttribute("data-timezone",(new Date).getTimezoneOffset()/60),window.localStorage&&window.localStorage.schemeName&&HTML.setAttribute("data-color-scheme",localStorage.schemeName)</script>
+<link rel=stylesheet href=index.css>
+<link rel=apple-touch-icon-precomposed href=/static/images/favicon@2x.png>
+<meta name=format-detection content=telephone=no>
+<meta name=robots content=index,follow>
 
-<h1>Test Page</h1>
-
-
-
-</body>
-</html> 
+<div class=ui-layout>
+	<div class="func-anibaka-box ui-w740">
+		<a class=func-anibaka-title href=/anibaka?traned=1&sort=modified%2Cdesc>
+			<h6>日志</h6>
+			<h5>T代</h5>
+		</a>
+		<hr class=ui-hr>
+		<div class=func-anibaka-filter-box>页面内跳转
+			<a href=/anibaka>全部</a>
+			<i></i>
+			<a href=/anibaka?mmdd=0809>今日</a>
+			<i></i>
+			<form class=ui-select-nostyle style=width:4.3em>
+				<select name=yymm>
+					<option value>年月
+				</select>
+			</form>
+			<i></i>
+			<a href=/anibaka?traned=1&sort=modified%2Cdesc>已译</a>
+			<a href=/anibaka?traned=0>未译</a>
+			<i></i>
+			<form class=ui-select-nostyle style=width:3.3em>
+				<select name=sort onchange=this.parentNode.submit()>
+					<option value>最新前
+					<option value=n,asc>最旧前
+					<option value=modified,desc>新修改
+				</select>
+			</form>
+		</div>
+		<div class=func-anibaka-list>
+			<div class=func-anibaka-item data-traned>
+				<div class=head>
+					<div class=avatar>
+						<img src=icons/meteor.png>
+					</div>
+					<span class=n>天文</span>
+					<h3 class=title>
+						<a href=https://en.wikipedia.org/wiki/Meteor>
+							<span lang=cn>流星</span>
+							<span lang=en>Meteor</span>
+						</a>
+					</h3>
+					<div class=info-box>
+						<span class="genericon genericon-month"></span>
+						更新时间：
+						<span class=date>2020年08月09日</span>
+					</div>
+				</div>
+				<hr class=ui-hr>
+				<div class=content-box>
+					<a href=https://www.minorplanetcenter.net/iau/SkyCoverage.html lang=en target=_blank>Sky Coverage Plots</a>
+				</div>
+			</div>
+			<div class=func-anibaka-item data-traned>
+				<div class=head>
+					<div class=avatar>
+						<img src=icons/gallery.png>
+					</div>
+					<span class=n>天文</span>
+					<h3 class=title>
+						<a href=/anibaka/3155>
+							<span lang=cn>图库</span>
+							<span lang=en>Galery</span>
+						</a>
+					</h3>
+					<div class=info-box>
+						<span class="genericon genericon-month"></span>
+							更新时间：
+						<span class=date>	2019年07月16日
+						</span>
+				</div>
+			</div>
+			<hr class=ui-hr>
+			<div class=content-box>
+				<p>大家
+			</div>
+			<div class=append>
+				<span class=translator>译者: 
+					<a href=/anibaka?translator=%E7%A4%BE%E7%95%9CD>社畜D</a>
+				</span>
+			</div>
+		</div>
+</div>
+<hr class=ui-hr>
+<div class=func-arrows-box>
+	<a href=/anibaka?page&#x3D;2>
+		<span class="genericon genericon-expand"></span>
+		返回最上面
+	</a>
+</div>
+</div>
+</div>
+<link rel=stylesheet href=https://cdn.bootcss.com/genericons/3.1/genericons.css>
+<script src=main.js></script>
