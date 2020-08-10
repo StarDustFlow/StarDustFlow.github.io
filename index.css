@@ -693,6 +693,7 @@ a:hover .ui-icon-app {
   line-height: 22px;
   font-weight: 600;
   padding: 9px 0 7px;
+  margin: 2px;
 }
 .func-anibaka-item > .head .title a {
   display: inline-block;
