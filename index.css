@@ -608,7 +608,7 @@ a:hover .ui-icon-app {
   background: #FFF;
   line-height: 1.5;
 }
-.func-anibaka-box a {
+.func-anibaka-box .func-anibaka-filter-box a {
   color: #e6521e;
 }
 .func-anibaka-box .content-box a {
