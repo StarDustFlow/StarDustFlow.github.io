@@ -611,6 +611,9 @@ a:hover .ui-icon-app {
 .func-anibaka-box a {
   color: #e6521e;
 }
+.func-anibaka-box .content-box a {
+  color: #00B0F0;
+}
 @media (max-width: 700px) {
   .func-anibaka-box > .func-profile-box {
     margin: 25px -20px;
@@ -655,16 +658,16 @@ a:hover .ui-icon-app {
   color: currentColor;
 }
 .func-anibaka-item > .head .avatar {
-  width: 80px;
+  width: 60px;
   position: absolute;
-  bottom: 10px;
-  left: 4px;
+  bottom: 22px;
+  left: 20px;
   text-align: center;
 }
 .func-anibaka-item > .head .avatar img {
   vertical-align: top;
   border-radius: 2px;
-  max-width: 80px;
+  max-width: 60px;
 }
 .func-anibaka-item > .head .n {
   display: block;
@@ -713,7 +716,7 @@ a:hover .ui-icon-app {
 }
 .func-anibaka-item > .content-box {
   padding: 1em 0.8em;
-  font-size: 14px;
+  font-size: 16px;
 }
 .func-anibaka-item > .append {
   color: #999;
@@ -763,6 +766,10 @@ a:hover .ui-icon-app {
 .func-anibaka-item[lang="ja"] > .head .n:after {
   content: 'ばか';
 }
+.func-anibaka-item > .content-box a[href]:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 700px) {
   .func-anibaka-item > .func-profile-box {
     margin: 40px -20px 15px;
