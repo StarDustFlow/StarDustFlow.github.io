@@ -38,7 +38,7 @@ input:focus {
   outline: none;
 }
 ::selection {
-  background: rgba(0, 149, 255, 0.1);
+  background: rgba(100, 149, 237, 0.1);
 }
 ul {
   list-style-type: none;
